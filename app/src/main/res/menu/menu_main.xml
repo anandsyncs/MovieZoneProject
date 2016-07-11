@@ -5,8 +5,26 @@
         android:title="@string/Popular"
         app:showAsAction="never"
         />
-    <item android:title="@string/Latest"
-        android:id="@+id/latest"
+    <!--<item android:title="@string/Latest"-->
+        <!--android:id="@+id/latest"-->
+        <!--app:showAsAction="never"-->
+        <!--/>-->
+    <item android:title="@string/TopRated"
+        android:id="@+id/toprated"
+        app:showAsAction="never"
+        />
+    <item android:title="@string/Upcoming"
+        android:id="@+id/upcoming"
+        app:showAsAction="never"
+        />
+
+    <item
+      android:title="@string/NowPlaying"
+        android:id="@+id/nowplaying"
+        app:showAsAction="never"
+    />
+    <item android:title="@string/Credits"
+        android:id="@+id/credits"
         app:showAsAction="never"
         />
 

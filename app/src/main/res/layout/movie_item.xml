@@ -5,17 +5,11 @@
     android:weightSum="1">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="250dp"
-        android:scaleType="centerCrop"
-        android:id="@+id/movieImage"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieImage"
+        android:layout_gravity="fill"
 
-    <TextView
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/movieText"
-        android:gravity="fill"
-         />
+        />
+
 </LinearLayout>

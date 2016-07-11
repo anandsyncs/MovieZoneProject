@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 /**
@@ -24,17 +26,16 @@ public class MoviesDataAdapter extends ArrayAdapter<MoviesData>{
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        MoviesData MoviesData =getItem(position);
+        MoviesData moviesData =getItem(position);
 
         if(convertView==null){
             convertView= LayoutInflater.from(getContext()).inflate(R.layout.movie_item,parent,false);
         }
 
         ImageView movieImage=(ImageView)convertView.findViewById(R.id.movieImage);
-        TextView movieText=(TextView)convertView.findViewById(R.id.movieText);
+        movieImage.setAdjustViewBounds(true);
+        Picasso.with(getContext()).load(moviesData.getPosterPath()).into(movieImage);
 
-        movieImage.setImageBitmap(MoviesData.image);
-        movieText.setText(MoviesData.movieName);
 
         return convertView;
     }
