@@ -29,13 +29,9 @@ android {
 
 
 repositories {
-    jcenter()
-
-    mavenCentral()
 
 }
 dependencies {
-    compile group: 'info.movito', name: 'themoviedbapi', version:'1.4'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.1'

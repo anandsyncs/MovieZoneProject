@@ -28,6 +28,15 @@
                 android:value="com.example.anand.moviezone.MainActivity" />
         </activity>
 
+        <activity
+            android:name=".Credits"
+            android:label="Requested By Mr Motwani"
+            android:parentActivityName=".MainActivity" >
+            >
+
+
+        </activity>
+
     </application>
 
 </manifest>

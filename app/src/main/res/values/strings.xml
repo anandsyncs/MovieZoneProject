@@ -1,6 +1,29 @@
 <resources>
+
     <string name="app_name">MovieZone</string>
+
     <string name="title_activity_detail">Details</string>
+
     <string name="Popular">Popular</string>
+
     <string name="Latest">Latest</string>
+
+    <string name="Upcoming">Upcoming</string>
+
+    <string name="TopRated">TopRated</string>
+
+    <string name="Credits">Credits</string>
+
+    <string name="PopulerMoviesURL">http://api.themoviedb.org/3/movie/popular?api_key=ef68bfed72780ce7ae801b9daba23069</string>
+
+    <string name="TopRatedMoviesURL">http://api.themoviedb.org/3/movie/top_rated?api_key=ef68bfed72780ce7ae801b9daba23069</string>
+
+    <string name="LatestMoviesURL">http://api.themoviedb.org/3/movie/latest?api_key=ef68bfed72780ce7ae801b9daba23069</string>
+
+    <string name="UpcomingMoviesURL">http://api.themoviedb.org/3/movie/upcoming?api_key=ef68bfed72780ce7ae801b9daba23069</string>
+
+    <string name="APIKey">38fe9b1f9bb33fb12279f90cc2193d24</string>
+
+
+
 </resources>
