@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.anand.moviezone" >
+    package="com.application.anand.moviezone">
 
     <!-- This permission is necessary in order for Sunshine to perform network access. -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -25,7 +25,7 @@
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.anand.moviezone.MainActivity" />
+                android:value="com.application.anand.moviezone.MainActivity" />
         </activity>
 
         <activity
